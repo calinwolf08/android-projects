@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">spanish blah</string>
+
+    <string name="hello_world">spanish blah</string>
+    <string name="action_settings">spanish blah</string>
+    <string name="users_name_edit_text">spanish blah</string>
+    <string name="happy_question">spanish blah</string>
+    <string name="answer_yes_button">si</string>
+    <string name="answer_no_button">no</string>
+</resources>

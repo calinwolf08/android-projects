@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SavingState</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="notes_text_view">Notes</string>
+    <string name="notes_edit_text">Enter Notes</string>
+    <string name="settings">settings</string>
+</resources>

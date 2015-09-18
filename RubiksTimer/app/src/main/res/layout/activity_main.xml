@@ -1,0 +1,77 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="325dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="36dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_inspection_time_text_view"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/inspection_spinner" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <EditText
+        android:id="@+id/timer_edit_text"
+        android:textSize="60sp"
+        android:layout_width="260dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:editable="false"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/start_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Start/Stop"
+                android:textSize="20sp"
+
+                android:layout_below="@+id/timer_edit_text"
+                android:onClick="startStopButton"/>
+
+            <Button
+                android:id="@+id/reset_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Reset"
+                android:textSize="20sp"
+                android:layout_below="@+id/timer_edit_text"
+                android:layout_marginLeft="15dp"
+                android:onClick="resetTimer"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
